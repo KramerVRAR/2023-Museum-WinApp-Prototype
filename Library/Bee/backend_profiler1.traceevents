@@ -1,0 +1,478 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690792452792430, "dur":1091, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792452793530, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690792452793611, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690792452793629, "dur":434, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690792452794094, "dur":604, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792452794698, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454026886, "dur":142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027028, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027040, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027042, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027063, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027074, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027086, "dur":102, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027188, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027202, "dur":78, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027280, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027290, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027292, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027301, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027303, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027309, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027318, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027319, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027324, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027326, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027333, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027334, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027339, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027341, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027347, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027359, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454027381, "dur":1269, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690792452794420, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792452794712, "dur":2854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792452797567, "dur":22520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690792452820093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792452820103, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690792452823484, "dur":112961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792452936452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792452936461, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792452937689, "dur":49876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792452987571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792452987580, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792452988765, "dur":74213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453062985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453062995, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453064225, "dur":36453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453100683, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453100696, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453103293, "dur":80783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453184083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453184108, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453187220, "dur":62223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453249450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453249460, "dur":5053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453254531, "dur":80726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453335262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453335272, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453337321, "dur":170772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453508099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453508109, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453509317, "dur":56236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453565560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453565570, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453566792, "dur":202330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453769130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690792453769139, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690792453771706, "dur":255156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452794548, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452794741, "dur":2802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452797549, "dur":5205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690792452802758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452802990, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690792452804851, "dur":21880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690792452826739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452826750, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690792452827954, "dur":72761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792452900721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452900731, "dur":7338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792452908090, "dur":47505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792452955602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792452955612, "dur":7370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792452963000, "dur":204553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453167559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792453167568, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453169354, "dur":170211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453339570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792453339579, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453341029, "dur":116036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453457072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792453457082, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453458258, "dur":57081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453515346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792453515356, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453517027, "dur":302938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453819972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690792453819982, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690792453821437, "dur":205455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792452794931, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792452794932, "dur":2650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792452797583, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690792452797743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792452813138, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690792452814908, "dur":48715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype.exe" }}
+,{ "pid":12345, "tid":3, "ts":1690792452863627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792452863632, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype.exe" }}
+,{ "pid":12345, "tid":3, "ts":1690792452867709, "dur":282090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453149806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792453149816, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453151378, "dur":51993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453203379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792453203391, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453205247, "dur":127580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453332834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792453332845, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453334091, "dur":351278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453685376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792453685386, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453687116, "dur":289443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453976564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690792453976571, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690792453977619, "dur":49257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452794865, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452794866, "dur":2672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452797547, "dur":60503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1690792452858057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452858418, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1690792452859441, "dur":37184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792452896632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452896641, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792452897803, "dur":34775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792452932583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792452932594, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792452933855, "dur":122004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453055865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453055874, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453057016, "dur":42823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453099845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453099855, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453102757, "dur":35313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453138075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453138083, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453139210, "dur":40735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453180041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453180051, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453182733, "dur":43414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453226154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453226172, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453227398, "dur":43228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453270631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453270640, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453272070, "dur":83375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453355451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453355478, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453356769, "dur":270718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453627494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792453627504, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792453628872, "dur":395294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792454024171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690792454024178, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690792454026834, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1690792454026837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452795244, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452795245, "dur":2296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452797548, "dur":23283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690792452820865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452820874, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690792452823885, "dur":35088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452858978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452859842, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452863081, "dur":64989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452928077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452928087, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452932253, "dur":59495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452991755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792452991765, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792452993010, "dur":156915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453149930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453149938, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453152309, "dur":52679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453204996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453205006, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453206571, "dur":60053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453266629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453266637, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453270278, "dur":54387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453324673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453324684, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453326005, "dur":100170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453426183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453426194, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453427363, "dur":262298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453689668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453689678, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453693309, "dur":157411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453850726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690792453850758, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690792453851696, "dur":175199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452794618, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452794708, "dur":2837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452797548, "dur":5404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1690792452802957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452803133, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1690792452805845, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1690792452805965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452805974, "dur":5563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1690792452811590, "dur":78842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792452890437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452890756, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792452892050, "dur":50966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792452943024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792452943035, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792452944250, "dur":62692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453006949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453006959, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453008658, "dur":118409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453127075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453127085, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453128399, "dur":42852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453171259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453171269, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453172534, "dur":42694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453215235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453215246, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453217937, "dur":45296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453263239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453263248, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453268547, "dur":254016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453522570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453522580, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453523690, "dur":358787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453882482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690792453882489, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690792453884274, "dur":142621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792452794824, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792452794825, "dur":2721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792452797546, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1690792452797729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792452812699, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1690792452814564, "dur":152547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792452967117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792452967162, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792452972487, "dur":237817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453210311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453210321, "dur":6160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453216500, "dur":44210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453260816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453260826, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453263198, "dur":78273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453341476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453341499, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453342696, "dur":188735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453531437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453531447, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453532900, "dur":89274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453622180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453622190, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453623456, "dur":85850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453709314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453709325, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690792453710841, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690792453710860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453710867, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690792453712689, "dur":12327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1690792453725021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690792453725029, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1690792453726048, "dur":300835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452794687, "dur":20, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452794707, "dur":2830, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452797547, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1690792452797555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452798332, "dur":253, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1690792452798589, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1690792452798613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452798796, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1690792452800990, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690792452801088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452801568, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690792452803689, "dur":19589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690792452823285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452823295, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690792452824411, "dur":39090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452863506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452863539, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452865015, "dur":43594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452908615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452908624, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452909985, "dur":40427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452950419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792452950430, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792452952352, "dur":85975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453038335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453038345, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453040583, "dur":60180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453100768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453100774, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453103214, "dur":69811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453173029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453173037, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453174960, "dur":35349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453210314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453210322, "dur":6146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453216485, "dur":49100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453265591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453265599, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453269705, "dur":67382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453337092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453337101, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453338282, "dur":388594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453726882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690792453726889, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690792453730497, "dur":296368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452794386, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452794721, "dur":2860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452797582, "dur":26126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1690792452823712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452823721, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1690792452824765, "dur":65182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792452889954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452889963, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792452891206, "dur":77023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792452968235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792452968245, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792452973644, "dur":37314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453010964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453010974, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453012961, "dur":39385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453052354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453052363, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453053512, "dur":39255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453092774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453092784, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453094023, "dur":64529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453158559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453158569, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453160374, "dur":97739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453258119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453258127, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453262602, "dur":39411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453302020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453302029, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453303278, "dur":131608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453434893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453434903, "dur":6666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453441587, "dur":137996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453579595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453579604, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453580882, "dur":181521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453762411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690792453762434, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690792453763749, "dur":263145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452795002, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452795003, "dur":2564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452797567, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1690792452797728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452798998, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1690792452803807, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1690792452803933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452803956, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1690792452807131, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1690792452807253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452807278, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1690792452811477, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1690792452811634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792452811641, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1690792452814760, "dur":386767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453201533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453201540, "dur":16194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453217785, "dur":39560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453257353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453257363, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453258666, "dur":67656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453326327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453326335, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453327310, "dur":137396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453464713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453464723, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453465908, "dur":236269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453702184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453702194, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690792453703388, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1690792453703408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453703427, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1690792453704621, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453704639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453704645, "dur":6896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453711557, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1690792453711773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453711779, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1690792453712927, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453712944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453712950, "dur":6002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453718968, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690792453718988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453718995, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690792453720551, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453720569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453720575, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690792453721625, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1690792453721641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453721647, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1690792453722856, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690792453722873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453722879, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690792453723868, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1690792453723884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453723889, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1690792453725223, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1690792453725417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690792453725449, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1690792453726925, "dur":299960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452795114, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452795114, "dur":2430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452797548, "dur":21669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690792452819224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452819235, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690792452820449, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1690792452820577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452820852, "dur":13302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1690792452834210, "dur":81304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792452915521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792452915531, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792452917044, "dur":101104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453018155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453018165, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453019496, "dur":80538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453100069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453100077, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453102890, "dur":34855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453137752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453137762, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453139204, "dur":67146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453206357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453206373, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453207730, "dur":56453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453264188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453264196, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453272602, "dur":251789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453524396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453524405, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453525910, "dur":312857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453838772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690792453838780, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690792453840694, "dur":186170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792452795284, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792452795285, "dur":2255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792452797548, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1690792452797716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792452813060, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1690792452814797, "dur":157211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1690792452972014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792452972022, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1690792452973680, "dur":65617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453039303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453039339, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453041596, "dur":51719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453093320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453093328, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453095462, "dur":36209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453131678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453131687, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453132939, "dur":82511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453215455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453215492, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453217380, "dur":233674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453451060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453451071, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453452870, "dur":147022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453599899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453599909, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453601138, "dur":205216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WinApp/2023 Museum WinApp Prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453806361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690792453806371, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WinApp/2023 Museum WinApp Prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690792453807610, "dur":219265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690792454029866, "dur":2254, "ph":"X", "name": "ProfilerWriteOutput" }
+,
